@@ -24,24 +24,47 @@ Tech Stack -
 📸 Screenshots -
 
 **Home Page**  
-![Home](./screenshots/home)
+![Home](Screenshots/home.png)
 
-**Shorten Page**  
-![Shorten](./screenshots/shorten.png)
+**Shorten Page 1**  
+![Shorten](Screenshots/shorten1.png)
+
+**Shorten Page 2**  
+![Shorten](Screenshots/shorten2.png)
+
+**Shorten Page 3**  
+![Shorten](Screenshots/shorten3.png)
 
 **About Page**  
-![About](./screenshots/about.png)
+![About](Screenshots/about.png)
 
 **Contact Page**  
-![Contact](./screenshots/contact.png)
+![Contact](Screenshots/contact.png)
 
----
 
-## 🚀 Getting Started
+🚀 Getting Started -
 
 Follow these steps to run Bitlinks locally:
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/bitlinks.git
+1. Clone the repository
+
+git clone (https://github.com/Soumitramaji/BitLinks-URL-Shortener.git)
+
 cd bitlinks
+
+2. Install dependencies
+
+npm install
+# or
+yarn install
+
+3. Set up environment variables
+
+MONGODB_URI=mongodb://localhost:27017/
+NEXT_PUBLIC_HOST=http://localhost:3000
+
+4. Run the development server
+
+npm run dev
+# or
+yarn dev
