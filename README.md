@@ -61,6 +61,7 @@ yarn install
 3. Set up environment variables
 
 MONGODB_URI=mongodb://localhost:27017/
+
 NEXT_PUBLIC_HOST=http://localhost:3000
 
 4. Run the development server
@@ -68,3 +69,7 @@ NEXT_PUBLIC_HOST=http://localhost:3000
 npm run dev
 # or
 yarn dev
+
+5. Open the link in browser
+
+http://localhost:3000
