@@ -50,12 +50,14 @@ Follow these steps to run Bitlinks locally:
 
 git clone (https://github.com/Soumitramaji/BitLinks-URL-Shortener.git)
 
+run
+
 cd bitlinks
 
 2. Install dependencies
 
 npm install
-# or
+or
 yarn install
 
 3. Set up environment variables
@@ -67,7 +69,7 @@ NEXT_PUBLIC_HOST=http://localhost:3000
 4. Run the development server
 
 npm run dev
-# or
+or
 yarn dev
 
 5. Open the link in browser
