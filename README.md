@@ -24,7 +24,7 @@ Tech Stack -
 📸 Screenshots -
 
 **Home Page**  
-![Home](screenshots/home.png)
+![Home](./screenshots/home)
 
 **Shorten Page**  
 ![Shorten](./screenshots/shorten.png)
